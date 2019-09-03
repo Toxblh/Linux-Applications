@@ -39,6 +39,7 @@ Small history part. From 2014 I use macOS as home and work station, in parallel 
 ## Notes
 - Simplenotes (TS)
 - Boostnotes (TS)
+- Tusk (TS)
 
 ## Video/Graphics/3D editors
 - DaVinci Resolve - video editor
