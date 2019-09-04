@@ -28,6 +28,7 @@ Small history part. From 2014 I use macOS as home and work station, in parallel 
 
 ## Utils
 - [GWE](https://gitlab.com/leinardi/gwe) Like GPU-Z + MSI Afterburner for NVIDIA
+- [CPU-X](https://x0rg.github.io/CPU-X/) Like CPU-Z in Windows
 - [<img src="https://qbittorrent.org/favicon.ico" height="16" /> qBittorrent](https://qbittorrent.org/)
 - pSensor
 - Timeshift (TS) - backup system 
