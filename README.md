@@ -36,7 +36,7 @@ Small history part. From 2014 I use macOS as home and work station, in parallel 
 - [<img src="https://qbittorrent.org/favicon.ico" height="16" /> qBittorrent](https://qbittorrent.org/)
 - [<img src="https://gitlab.com/jeanfi/psensor/raw/master/icons/ubuntu-mono-light/status/22/psensor_hot.svg" width="16" height="16" /> pSensor](https://gitlab.com/jeanfi/psensor)
 - [<img src="https://github.com/teejee2008/timeshift/raw/master/icons/timeshift_black_bold.png" width="16" height="16" /> Timeshift](https://github.com/teejee2008/timeshift) (TS) - backup system 
-- [<img src="https://www.teamviewer.com/favicon.ico" height="16" /> TeamViewer](https://www.teamviewer.com) - Remote control and remote support
+- [<img src="https://static.teamviewer.com/resources/2018/07/favicon.png" height="16" /> TeamViewer](https://www.teamviewer.com) - Remote control and remote support
 
 ## Code editor
 - [<img src="https://code.visualstudio.com/favicon.ico" height="16" /> Visual Studio Code](https://code.visualstudio.com/) - Lightweight Source Code Editor and text as well
