@@ -54,7 +54,7 @@ Small history part. From 2014 I use macOS as home and work station, in parallel 
 
 ## Docs 
 - [<img src="https://www.google.com/docs/about/favicon.ico" width="16" height="16" /> Google Docs](https://www.google.com/docs) (Web)
-- [<img src="https://www.wps.com/favicon.ico" width="16" height="16" /> WPS](https://www.wps.com/office/linux) - analog LibraOffice looks like MS office
+- [<img src="https://www.wps.com/favicon.ico" width="16" height="16" /> WPS](https://www.wps.com/office/linux) - analog LibreOffice looks like MS office
 
 ## Photo/Video/Files viwers
 - [<img src="http://images.videolan.org/images/favicon.ico" height="16" /> VLC](http://www.videolan.org/vlc/index.html) - Multimedia player and framework that plays DVDs, Audio CDs, VCDs, and various streaming protocols.
