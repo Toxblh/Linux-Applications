@@ -13,13 +13,15 @@ Small history part. From 2014 I use macOS as home and work station, in parallel 
 
 ## Browser 
 - [<img src="https://www.google.com/chrome/static/images/favicons/favicon-96x96.png" width="16" height="16" /> Google Chrome](https://www.google.com/chrome/)
+- [<img src="https://www.mozilla.org/media/img/firefox/favicon.ico" width="16" height="16" /> Firefox](https://www.mozilla.org/en-GB/firefox/) I would like to move, but still can't find all alternative extension from my Chrome
 
 ## Mail:
-- [<img src="https://www.thunderbird.net/media/img/thunderbird/favicon-196.png" width="16" height="16" /> Thunderbird](https://www.thunderbird.net) + https://www.omgubuntu.co.uk/2018/08/monterail-thunderbird-theme-add-ons
+- [<img src="https://gitlab.gnome.org/uploads/-/system/project/avatar/1894/geary-3-32-256-logo.png" width="16" height="16" /> Geary](https://gitlab.gnome.org/GNOME/geary/) Switched from thunderbird, that more like macos mail client.
+- [<img src="https://www.thunderbird.net/media/img/thunderbird/favicon-196.png" width="16" height="16" /> Thunderbird](https://www.thunderbird.net) + https://www.omgubuntu.co.uk/2018/08/monterail-thunderbird-theme-add-ons - I use it long time, but that mail client looks like step back after Gmail Web Client and MacOS Mail.app. I'll follow the project. It's good, but don't match perfect to me.
 
 ## Music
 - [<img src="https://www.spotify.com/favicon.ico" height="16" /> Spotify](https://www.spotify.com) - Streaming service for music for all your devices
-- [<img src="https://gitlab.gnome.org/uploads/-/system/project/avatar/274/org.gnome.Lollypop.png?width=40" width="16" height="16" /> Lollypop](https://gitlab.gnome.org/World/lollypop) [<img src="https://github.com/flatpak/flatpak/raw/master/flatpak.png?raw=true" width="16" height="16" />](https://flathub.org/apps/details/org.gnome.Lollypop) Music pleer
+- [<img src="https://gitlab.gnome.org/uploads/-/system/project/avatar/274/org.gnome.Lollypop.png" width="16" height="16" /> Lollypop](https://gitlab.gnome.org/World/lollypop) [<img src="https://github.com/flatpak/flatpak/raw/master/flatpak.png?raw=true" width="16" height="16" />](https://flathub.org/apps/details/org.gnome.Lollypop) Relly nice music pleer. 
 
 ## Messangers
 - [<img src="https://desktop.telegram.org/img/td_favicon.ico" width="16" height="16" /> Telegram](https://desktop.telegram.org/) [<img src="https://dashboard.snapcraft.io/site_media/appmedia/2018/04/Snapcraft-logo-bird.png" width="16" height="16" />](https://snapcraft.io/telegram-desktop) [<img src="https://github.com/flatpak/flatpak/raw/master/flatpak.png?raw=true" width="16" height="16" />](https://flathub.org/apps/details/org.telegram.desktop) - A messaging app with a focus on speed and security, it’s super fast, simple and free.
@@ -42,18 +44,18 @@ Small history part. From 2014 I use macOS as home and work station, in parallel 
 - [<img src="https://code.visualstudio.com/favicon.ico" height="16" /> Visual Studio Code](https://code.visualstudio.com/) - Lightweight Source Code Editor and text as well
 
 ## Notes
-- [<img src="https://s2.wp.com/wp-content/themes/a8c/simplenote/images/chrome/favicon.ico" width="16" height="16" /> Simplenotes](https://simplenote.com/) (TS)
-- [<img src="https://boostnote.io/assets/img/logo.png" width="16" height="16" /> Boostnotes](https://boostnote.io/) (TS)
-- [<img src="https://github.com/klaussinani/tusk/raw/master/docs/media/logo.png" width="16" height="16" /> Tusk](https://github.com/klaussinani/tusk) (TS)
+- [<img src="https://s2.wp.com/wp-content/themes/a8c/simplenote/images/chrome/favicon.ico" width="16" height="16" /> Simplenotes](https://simplenote.com/) - Best that is match with me. It has as simple notes and markdown notes. Client have on all popular OS include mobiles. Also has syncronisation.
+- [<img src="https://boostnote.io/assets/img/logo.png" width="16" height="16" /> Boostnotes](https://boostnote.io/) - Cool notes with markdown, but without syncronization in the box. And without mobile client
+- [<img src="https://github.com/klaussinani/tusk/raw/master/docs/media/logo.png" width="16" height="16" /> Tusk](https://github.com/klaussinani/tusk) - Good Notes if you use Evernote
 
 ## Video/Graphics/3D editors
-- [<img src="https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/79/5b/2e/795b2e7a-4211-6b2a-621e-87d969e1b354/Resolve.png/230x0w.png" width="16" height="16" /> DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/) - video editor
+- [<img src="https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/79/5b/2e/795b2e7a-4211-6b2a-621e-87d969e1b354/Resolve.png/230x0w.png" width="16" height="16" /> DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/) - Video editor, I think the best for Linux
 - [<img src="https://krita.org/wp-content/themes/krita-org-theme/images/favicon.ico" height="16" /> Krita](https://krita.org/) (TS) - Krita is a professional FREE and open source painting program.
-- [<img src="https://obsproject.com/favicon.ico" height="16" /> Open Broadcaster Software](https://obsproject.com/) - Free and open source software for video recording and live streaming.
+- [<img src="https://obsproject.com/favicon.ico" height="16" /> Open Broadcaster Software](https://obsproject.com/) - For video recording and live streaming.
 - [<img src="https://www.blender.org/favicon.ico" height="16" /> Blender](https://www.blender.org/) - Fully-featured extensible cross-platform 3D content suite.
 
 ## Docs 
-- [<img src="https://www.google.com/docs/about/favicon.ico" width="16" height="16" /> Google Docs](https://www.google.com/docs) (Web)
+- [<img src="https://www.google.com/docs/about/favicon.ico" width="16" height="16" /> Google Docs](https://www.google.com/docs) Web docs, I use every day.
 - [<img src="https://www.wps.com/favicon.ico" width="16" height="16" /> WPS](https://www.wps.com/office/linux) - analog LibreOffice looks like MS office
 
 ## Photo/Video/Files viwers
