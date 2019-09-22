@@ -61,3 +61,6 @@ Small history part. From 2014 I use macOS as home and work station, in parallel 
 ## Photo/Video/Files viwers
 - [<img src="http://images.videolan.org/images/favicon.ico" height="16" /> VLC](http://www.videolan.org/vlc/index.html) - Multimedia player and framework that plays DVDs, Audio CDs, VCDs, and various streaming protocols.
 
+## Ebook
+- [foliate](https://github.com/johnfactotum/foliate) (TS)
+- [bookworm](https://github.com/babluboy/bookworm) (TS)
