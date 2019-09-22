@@ -62,5 +62,5 @@ Small history part. From 2014 I use macOS as home and work station, in parallel 
 - [<img src="http://images.videolan.org/images/favicon.ico" height="16" /> VLC](http://www.videolan.org/vlc/index.html) - Multimedia player and framework that plays DVDs, Audio CDs, VCDs, and various streaming protocols.
 
 ## Ebook
-- [foliate](https://github.com/johnfactotum/foliate) (TS)
-- [bookworm](https://github.com/babluboy/bookworm) (TS)
+- [<img src="https://github.com/johnfactotum/foliate/blob/master/data/com.github.johnfactotum.Foliate.svg" height="16" /> foliate](https://github.com/johnfactotum/foliate) (TS)
+- [<img src="https://babluboy.github.io/bookworm/images/bookworm.png" height="16" /> bookworm](https://github.com/babluboy/bookworm) (TS)
