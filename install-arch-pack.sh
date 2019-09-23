@@ -2,7 +2,7 @@ yay -S \
  google-chrome \
  geary \
  spotify \
- lollypop-git \
+ lollypop \
  telegram-desktop \
  discord \
  slack-desktop \
@@ -16,7 +16,7 @@ yay -S \
  visual-studio-code-bin \
  simplenote-electron-bin \
  krita \
- obs-studi \
+ obs-studio \
  libreoffice-still \
  vlc \
  foliate
