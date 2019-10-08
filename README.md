@@ -37,7 +37,7 @@ Small history part. From 2014 I use macOS as home and work station, in parallel 
 - [<img src="https://raw.githubusercontent.com/X0rg/CPU-X/master/data/icons/CPU-X_192x192.png" width="16" height="16" /> CPU-X](https://x0rg.github.io/CPU-X/) Like CPU-Z in Windows
 - [<img src="https://qbittorrent.org/favicon.ico" height="16" /> qBittorrent](https://qbittorrent.org/)
 - [<img src="https://gitlab.com/jeanfi/psensor/raw/master/icons/ubuntu-mono-light/status/22/psensor_hot.svg" width="16" height="16" /> pSensor](https://gitlab.com/jeanfi/psensor)
-- [<img src="https://github.com/teejee2008/timeshift/raw/master/icons/timeshift_black_bold.png" width="16" height="16" /> Timeshift](https://github.com/teejee2008/timeshift) (TS) - backup system 
+- [<img src="https://github.com/teejee2008/timeshift/raw/master/icons/timeshift_black_bold.png" width="16" height="16" /> Timeshift](https://github.com/teejee2008/timeshift) - awesome backup system, already twice restored my system after experements. Highly recomend.
 - [<img src="https://static.teamviewer.com/resources/2018/07/favicon.png" height="16" /> TeamViewer](https://www.teamviewer.com) - Remote control and remote support
 
 ## Code editor
@@ -57,10 +57,11 @@ Small history part. From 2014 I use macOS as home and work station, in parallel 
 ## Docs 
 - [<img src="https://www.google.com/docs/about/favicon.ico" width="16" height="16" /> Google Docs](https://www.google.com/docs) Web docs, I use every day.
 - [<img src="https://www.wps.com/favicon.ico" width="16" height="16" /> WPS](https://www.wps.com/office/linux) - analog LibreOffice looks like MS office
+- [<img src="https://www.libreoffice.org/themes/libreofficenew/favicon.ico" width="16" height="16" /> LibreOffice](https://www.libreoffice.org/) - So after long time it's my general office for linux
 
 ## Photo/Video/Files viwers
 - [<img src="http://images.videolan.org/images/favicon.ico" height="16" /> VLC](http://www.videolan.org/vlc/index.html) - Multimedia player and framework that plays DVDs, Audio CDs, VCDs, and various streaming protocols.
 
 ## Ebook
-- [<img src="https://github.com/johnfactotum/foliate/blob/master/data/com.github.johnfactotum.Foliate.svg" height="16" /> foliate](https://github.com/johnfactotum/foliate) (TS)
-- [<img src="https://babluboy.github.io/bookworm/images/bookworm.png" height="16" /> bookworm](https://github.com/babluboy/bookworm) (TS)
+- [<img src="https://github.com/johnfactotum/foliate/blob/master/data/com.github.johnfactotum.Foliate.svg" height="16" /> foliate](https://github.com/johnfactotum/foliate) - Best ebook reader for me
+- [<img src="https://babluboy.github.io/bookworm/images/bookworm.png" height="16" /> bookworm](https://github.com/babluboy/bookworm) - More liked Foliate. But also not bad
