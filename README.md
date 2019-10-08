@@ -13,7 +13,7 @@ Small history part. From 2014 I use macOS as home and work station, in parallel 
 
 ## Browser 
 - [<img src="https://www.google.com/chrome/static/images/favicons/favicon-96x96.png" width="16" height="16" /> Google Chrome](https://www.google.com/chrome/)
-- [<img src="https://www.mozilla.org/media/img/firefox/favicon.ico" width="16" height="16" /> Firefox](https://www.mozilla.org/en-GB/firefox/) I would like to move, but still can't find all alternative extension from my Chrome
+- [<img src="https://www.mozilla.org/media/img/firefox/favicon.ico" width="16" height="16" /> Firefox](https://www.mozilla.org/en-GB/firefox/) Moved from my Chrome for linux.
 
 ## Mail:
 - [<img src="https://gitlab.gnome.org/uploads/-/system/project/avatar/1894/geary-3-32-256-logo.png" width="16" height="16" /> Geary](https://gitlab.gnome.org/GNOME/geary/) Switched from thunderbird, that more like macos mail client.
