@@ -9,7 +9,7 @@ Small history part. From 2014 I use macOS as home and work station, in parallel 
 
 > [<img src="https://github.com/flatpak/flatpak/raw/master/flatpak.png?raw=true" width="16" height="16" />](https://flatpak.org/) - Flatpak links 
 
-### Distro now: [<img src="https://assets.ubuntu.com/v1/cb22ba5d-favicon-16x16.png" width="16" height="16" /> Ubuntu 19.04](https://ubuntu.com/)
+### Distro now: ~~[<img src="https://assets.ubuntu.com/v1/cb22ba5d-favicon-16x16.png" width="16" height="16" /> Ubuntu 19.04](https://ubuntu.com/)~~ [<img src="https://www.archlinux.org/static/favicon.ico" width="16" height="16" /> Arch Linux](https://www.archlinux.org/)
 
 ## Browser 
 - [<img src="https://www.google.com/chrome/static/images/favicons/favicon-96x96.png" width="16" height="16" /> Google Chrome](https://www.google.com/chrome/)
