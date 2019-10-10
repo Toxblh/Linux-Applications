@@ -65,3 +65,7 @@ Small history part. From 2014 I use macOS as home and work station, in parallel 
 ## Ebook
 - [<img src="https://github.com/johnfactotum/foliate/blob/master/data/com.github.johnfactotum.Foliate.svg" height="16" /> foliate](https://github.com/johnfactotum/foliate) - Best ebook reader for me
 - [<img src="https://babluboy.github.io/bookworm/images/bookworm.png" height="16" /> bookworm](https://github.com/babluboy/bookworm) - More liked Foliate. But also not bad
+
+## Password Managers
+- [<img src="https://bitwarden.com/images/icons/favicon-32x32.png" height="16" /> Bitwarden](https://bitwarden.com/) - OpenSource password manager, also you can self create your server for the manager
+- [<img src="https://1password.com/icons/favicon-v1.ico" height="16" /> 1Password](https://1password.com/) - IMHO best password manager, but hasn't GUI client for Linux, but has CLI and as extension for browsers
