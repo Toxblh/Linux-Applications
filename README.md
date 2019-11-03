@@ -50,7 +50,8 @@ Small history part. From 2014 I use macOS as home and work station, in parallel 
 
 ## Video/Graphics/3D editors
 - [<img src="https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/79/5b/2e/795b2e7a-4211-6b2a-621e-87d969e1b354/Resolve.png/230x0w.png" width="16" height="16" /> DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/) - Video editor, I think the best for Linux
-- [<img src="https://krita.org/wp-content/themes/krita-org-theme/images/favicon.ico" height="16" /> Krita](https://krita.org/) (TS) - Krita is a professional FREE and open source painting program.
+- [<img src="https://krita.org/wp-content/themes/krita-org-theme/images/favicon.ico" height="16" /> Krita](https://krita.org/) (TS) - Krita is a professional free and open source painting program.
+- [<img src="https://media.inkscape.org/static/images/inkscape-logo.png" height="16" /> Inkscape](https://inkscape.org/) (TS) - Free and open-source vector graphics editor
 - [<img src="https://obsproject.com/favicon.ico" height="16" /> Open Broadcaster Software](https://obsproject.com/) - For video recording and live streaming.
 - [<img src="https://www.blender.org/favicon.ico" height="16" /> Blender](https://www.blender.org/) - Fully-featured extensible cross-platform 3D content suite.
 
