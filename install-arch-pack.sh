@@ -19,4 +19,5 @@ yay -S \
  obs-studio \
  libreoffice-still \
  vlc \
- foliate
+ foliate \
+ nerd-fonts-fira-code
