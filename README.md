@@ -1,17 +1,19 @@
 # 🐧 Linux Applications
-My pack of applications which I use on Linux
+My pack of applications and dotfiles which I use on Linux / MacOS
 
 Small history part. From 2014 I use macOS as home and work station, in parallel was Windows station for games and surfing the internet. After building a new PC I install Windows for games and install Linux distro as the second system for work. So at home Linux stay my main OS, and at work I still use macOS. And now I in progress to create the best pack of apps for work and life on Linux. The pack will be to update as I will found the best solutions.
 
-> TS - test stage, recently found, try to use. But not sure that is best 
+> TS - test stage, recently found, try to use. But not sure that is best
 
 > [<img src="https://dashboard.snapcraft.io/site_media/appmedia/2018/04/Snapcraft-logo-bird.png" width="16" height="16" />](https://snapcraft.io/) - Snapcraft links
 
-> [<img src="https://github.com/flatpak/flatpak/raw/master/flatpak.png?raw=true" width="16" height="16" />](https://flatpak.org/) - Flatpak links 
+> [<img src="https://github.com/flatpak/flatpak/raw/master/flatpak.png?raw=true" width="16" height="16" />](https://flatpak.org/) - Flatpak links
+
+![](assets/low-res.jpg)
 
 ### Distro now: ~~[<img src="https://assets.ubuntu.com/v1/cb22ba5d-favicon-16x16.png" width="16" height="16" /> Ubuntu 19.04](https://ubuntu.com/)~~ [<img src="https://www.archlinux.org/static/favicon.ico" width="16" height="16" /> Arch Linux](https://www.archlinux.org/)
 
-## Browser 
+## Browser
 - [<img src="https://www.google.com/chrome/static/images/favicons/favicon-96x96.png" width="16" height="16" /> Google Chrome](https://www.google.com/chrome/)
 - [<img src="https://www.mozilla.org/media/img/firefox/favicon.ico" width="16" height="16" /> Firefox](https://www.mozilla.org/en-GB/firefox/) Moved from my Chrome for Linux.
 
@@ -55,7 +57,7 @@ Small history part. From 2014 I use macOS as home and work station, in parallel 
 - [<img src="https://obsproject.com/favicon.ico" height="16" /> Open Broadcaster Software](https://obsproject.com/) - For video recording and live streaming.
 - [<img src="https://www.blender.org/favicon.ico" height="16" /> Blender](https://www.blender.org/) - Fully-featured extensible cross-platform 3D content suite.
 
-## Docs 
+## Docs
 - [<img src="https://www.google.com/docs/about/favicon.ico" width="16" height="16" /> Google Docs](https://www.google.com/docs) Web docs, I use every day.
 - [<img src="https://www.wps.com/favicon.ico" width="16" height="16" /> WPS](https://www.wps.com/office/linux) - Analogue LibreOffice looks like MS office
 - [<img src="https://www.libreoffice.org/themes/libreofficenew/favicon.ico" width="16" height="16" /> LibreOffice](https://www.libreoffice.org/) - So after long time it's my general office for Linux
