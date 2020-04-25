@@ -1,65 +1,34 @@
-ZSH config
-
-# Install ZSH and Oh-my-zsh
-# ZSH:            https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH
-# Oh-my-zsh:      sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-# Change shell:   chsh -s $(which zsh)
-# Test:           echo $SHELL
-# Finish          zsh
-
-# Path to your oh-my-zsh installation.
-export ZSH="${HOME}/.oh-my-zsh"
 export TERM="xterm-256color"
-# powerlevel9k/10k
-# git clone https://github.com/bhilburn/powerlevel9k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel9k
-# git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
-ZSH_THEME="powerlevel10k/powerlevel10k"
 
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(host user dir)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator vcs battery time)
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+POWERLEVEL9K_KUBECONTEXT_SHOW_ON_COMMAND='kubectl|helm|kubens|kubectx|oc|istioctl|kogito'
 
-plugins=(
-  git
+# ZPlug
 
-# zsh-autosuggestions
-# git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-  zsh-autosuggestions
+if [[ ! -d ~/.zplug ]];then
+    git clone https://github.com/b4b4r07/zplug ~/.zplug
+fi
+source ~/.zplug/init.zsh
 
-# zsh-syntax-highlighting
-# git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-  zsh-syntax-highlighting
-)
+# Theme
+zplug romkatv/powerlevel10k, as:theme
 
-source $ZSH/oh-my-zsh.sh
+# Plugins
+zplug "lib/completion",   from:oh-my-zsh
+zplug "lib/history",      from:oh-my-zsh
+zplug "lib/key-bindings", from:oh-my-zsh
+zplug "lib/termsupport",  from:oh-my-zsh
+zplug "lib/directories",  from:oh-my-zsh
+zplug "plugins/git",      from:oh-my-zsh
+zplug "plugins/history",  from:oh-my-zsh
 
-# Add Visual Studio Code (code)
-# export PATH="\$PATH:/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin"
+zplug "zsh-users/zsh-autosuggestions"
+zplug "zsh-users/zsh-syntax-highlighting"
+zplug "zsh-users/zsh-completions"
+zplug "zsh-users/zsh-history-substring-search"
 
-# K8s
-# if [ /usr/local/bin/kubectl ]; then source <(kubectl completion zsh); fi
-# if [ /usr/local/bin/helm ]; then source <(helm completion zsh); fi
-
-# The next line updates PATH for the Google Cloud SDK and enables shell command completion for gcloud.
-# if [ -f '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc' ]; then source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'; fi
-# if [ -f '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc' ]; then source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'; fi
-
-# ssh
-# export SSH_KEY_PATH="~/.ssh/rsa_id"
-
-# The next line updates PATH for the NVM.
-# export NVM_DIR="$HOME/.nvm"
-#   [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-#   [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-
-# export PATH="$HOME/.jenv/bin:$PATH"
-# eval "$(jenv init -)"
-# export JAVA_HOME="$HOME/.jenv/versions/`jenv version-name`"
-
-# export PATH="/usr/local/opt/helm@2/bin:$PATH"
-
-alias beautify="npx prettier --print-width 90 --no-semi --single-quote --trailing-comma all --write \"**/*.js\" && npx prettier --print-width 90 --no-semi --single-quote --trailing-comma all --write \"**/*.json\""
-alias beautifyALL="prettier --write --print-width 90 --no-semi --single-quote --trailing-comma all **/*.{js,jsx,ts,tsx,json,css,pcss,less,sass,scss,md,yml,gql,graphql,mdx}"
-alias k="kubectl"
-alias kx="kubectx"
+zplug check || zplug install
+zplug load
 

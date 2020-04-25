@@ -73,3 +73,6 @@ sudo cp dotfiles/ddc/45-ddcutil-i2c.rules /etc/udev/rules.d/45-ddcutil-i2c.rules
 sudo udevadm trigger
 sudo groupadd ddc
 sudo usermod -aG ddc $USER
+
+# Gnome OneDark Pro Terminal
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/denysdovhan/gnome-terminal-one/master/one-dark.sh)"
