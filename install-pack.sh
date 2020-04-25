@@ -42,6 +42,12 @@ yay -S conky
 yay -S simplescreenrecorder
 yay -S ttf-ms-fonts
 
+# SSH
+yay -S openssh
+sudo systemctl start sshd
+sudo systemctl enable sshd
+
+
 #
 # Settings system
 #
