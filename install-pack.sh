@@ -48,6 +48,7 @@ sudo systemctl start sshd
 sudo systemctl enable sshd
 
 
+
 #
 # Settings system
 #
@@ -65,3 +66,10 @@ git config --global user.email "toxblh@gmail.com"
 # Fast reconnection for bluetooth
 sudo sed -i 's/#FastConnectable = false/FastConnectable = true/g' /etc/bluetooth/main.conf
 
+# DDC Utils
+sudo modprobe i2c-dev
+sudo cp dotfiles/ddc/i2c-dev.conf /etc/modules-load.d/i2c-dev.conf
+sudo cp dotfiles/ddc/45-ddcutil-i2c.rules /etc/udev/rules.d/45-ddcutil-i2c.rules
+sudo udevadm trigger
+sudo groupadd ddc
+sudo usermod -aG ddc $USER

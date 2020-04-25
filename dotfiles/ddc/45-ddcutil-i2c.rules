@@ -1,0 +1,1 @@
+KERNEL=="i2c-[0-9]*", GROUP="ddc", MODE="0660", PROGRAM="/usr/bin/ddcutil --bus=%n getvcp 0x10"
