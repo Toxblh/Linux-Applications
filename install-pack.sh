@@ -75,4 +75,4 @@ sudo groupadd ddc
 sudo usermod -aG ddc $USER
 
 # Gnome OneDark Pro Terminal
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/denysdovhan/gnome-terminal-one/master/one-dark.sh)"
+dconf load /org/gnome/terminal/legacy/profiles:/:1430663d-083b-4737-a7f5-8378cc8226d1/ < dotfiles/gnome-terminal/theme-profile.dconf

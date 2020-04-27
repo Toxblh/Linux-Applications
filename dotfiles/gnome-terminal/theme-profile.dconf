@@ -1,0 +1,16 @@
+[/]
+audible-bell=true
+background-color='rgb(40,44,52)'
+bold-color='#ABB2BF'
+bold-color-same-as-fg=true
+bold-is-bright=false
+custom-command='zsh'
+font='FiraCode Nerd Font Mono 11'
+foreground-color='#abb2bf'
+login-shell=false
+palette=['rgb(45,49,57)', 'rgb(224,108,117)', 'rgb(152,195,121)', 'rgb(229,192,123)', 'rgb(97,175,239)', 'rgb(198,120,221)', 'rgb(86,182,194)', 'rgb(215,218,224)', 'rgb(127,132,142)', 'rgb(244,71,71)', 'rgb(152,195,121)', 'rgb(229,192,123)', 'rgb(82,139,255)', 'rgb(126,0,151)', 'rgb(86,182,194)', 'rgb(215,218,224)']
+text-blink-mode='always'
+use-custom-command=true
+use-theme-background=false
+use-theme-colors=false
+visible-name='ToxblhPro'
