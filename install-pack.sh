@@ -29,6 +29,7 @@ yay -S foliate
 yay -S libreoffice-still
 yay -S nerd-fonts-fira-code
 yay -S nvm
+yay -S zsh
 
 yay -S inav-configurator-bin
 # Access to usb serial
