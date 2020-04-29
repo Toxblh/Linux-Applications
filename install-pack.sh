@@ -85,6 +85,10 @@ sudo udevadm trigger
 sudo groupadd ddc
 sudo usermod -aG ddc $USER
 
+# Keyboard Keychron K2/Apple
+sudo cp dotfiles/keychron/hid_apple.conf /etc/modprobe.d/hid_apple.conf
+mkinitcpio
+
 # Gnome OneDark Pro Terminal
 dconf load /org/gnome/terminal/legacy/profiles:/:1430663d-083b-4737-a7f5-8378cc8226d1/ < dotfiles/gnome-terminal/theme-profile.dconf
 
