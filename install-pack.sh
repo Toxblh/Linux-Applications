@@ -1,5 +1,7 @@
 # dev utils
 sudo pacman -S base-devel
+uname -a
+sudo pacman -S linux-headers
 
 # install yay
 git clone https://aur.archlinux.org/yay.git
@@ -43,6 +45,9 @@ yay -S neofetch
 yay -S conky
 yay -S simplescreenrecorder
 yay -S ttf-ms-fonts
+
+# Extrernal Brightness (linux-headers required)
+yay -S ddcci-driver-linux-dkms
 
 # SSH
 yay -S openssh
