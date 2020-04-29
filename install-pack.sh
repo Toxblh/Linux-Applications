@@ -47,7 +47,16 @@ yay -S openssh
 sudo systemctl start sshd
 sudo systemctl enable sshd
 
+# Docker
+yay -S docker-compose
+sudo gpasswd -a $USER docker
+sudo systemctl start docker.service
+sudo systemctl enable docker.service
 
+# ocs-url - for open some themes and other
+yay -S ocs-url
+# AppImage integration to the system, analog appimaged
+yay -S appimagelauncher-git
 
 #
 # Settings system
