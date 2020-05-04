@@ -10,6 +10,7 @@ makepkg -si
 
 yay -S google-chrome
 yay -S geary
+yay -S pantheon-calendar
 yay -S spotify
 yay -S lollypop
 yay -S telegram-desktop
