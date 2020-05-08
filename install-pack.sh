@@ -48,6 +48,7 @@ yay -S simplescreenrecorder
 yay -S ttf-ms-fonts
 
 # Extrernal Brightness (linux-headers required)
+yay -S ddcutil
 yay -S ddcci-driver-linux-dkms
 
 # SSH
@@ -87,6 +88,8 @@ sudo sed -i 's/#FastConnectable = false/FastConnectable = true/g' /etc/bluetooth
 sudo modprobe i2c-dev
 sudo cp dotfiles/ddc/i2c-dev.conf /etc/modules-load.d/i2c-dev.conf
 sudo cp dotfiles/ddc/45-ddcutil-i2c.rules /etc/udev/rules.d/45-ddcutil-i2c.rules
+sudo cp dotfiles/ddc/99-ddcci.rules /etc/udev/rules.d/99-ddcci.rules
+sudo cp dotfiles/ddc/ddcci@.service /etc/systemd/system/ddcci@.service
 sudo udevadm trigger
 sudo groupadd ddc
 sudo usermod -aG ddc $USER
