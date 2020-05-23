@@ -8,64 +8,64 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
-yay -S google-chrome
-yay -S geary
-yay -S pantheon-calendar
-yay -S spotify
-yay -S lollypop
-yay -S telegram-desktop
+yay -S google-chrome --noconfirm
+yay -S geary --noconfirm
+yay -S pantheon-calendar --noconfirm
+yay -S spotify --noconfirm
+yay -S lollypop --noconfirm
+yay -S telegram-desktop --noconfirm
 # font for telegram
-yay -S ttf-opensans
-yay -S discord
-yay -S lutris
-yay -S steam
-yay -S gwe
-yay -S cpu-x
-yay -S qbittorrent
-yay -S psensor
-yay -S timeshift
-yay -S teamviewer
-yay -S visual-studio-code-bin
-yay -S simplenote-electron-bin
-yay -S vlc
-yay -S foliate
-yay -S libreoffice-still
-yay -S nerd-fonts-fira-code
-yay -S nvm
-yay -S zsh
+yay -S ttf-opensans --noconfirm
+yay -S discord --noconfirm
+yay -S lutris --noconfirm
+yay -S steam --noconfirm
+yay -S gwe --noconfirm
+yay -S cpu-x --noconfirm
+yay -S qbittorrent --noconfirm
+yay -S psensor --noconfirm
+yay -S timeshift --noconfirm
+yay -S teamviewer --noconfirm
+yay -S visual-studio-code-bin --noconfirm
+yay -S simplenote-electron-bin --noconfirm
+yay -S vlc --noconfirm
+yay -S foliate --noconfirm
+yay -S libreoffice-still --noconfirm
+yay -S nerd-fonts-fira-code --noconfirm
+yay -S nvm --noconfirm
+yay -S zsh --noconfirm
 
-yay -S inav-configurator-bin
+yay -S inav-configurator-bin --noconfirm
 # Access to usb serial
 sudo usermod -a -G uucp $USER
 sudo usermod -a -G lock $USER
 
-yay -S opentx-companion-bin
-yay -S cura
-yay -S inxi
-yay -S neofetch
-yay -S conky
-yay -S simplescreenrecorder
-yay -S ttf-ms-fonts
+yay -S opentx-companion-bin --noconfirm
+yay -S cura --noconfirm
+yay -S inxi --noconfirm
+yay -S neofetch --noconfirm
+yay -S conky --noconfirm
+yay -S simplescreenrecorder --noconfirm
+yay -S ttf-ms-fonts --noconfirm
 
 # Extrernal Brightness (linux-headers required)
-yay -S ddcutil
-yay -S ddcci-driver-linux-dkms
+yay -S ddcutil --noconfirm
+yay -S ddcci-driver-linux-dkms --noconfirm
 
 # SSH
-yay -S openssh
+yay -S openssh --noconfirm
 sudo systemctl start sshd
 sudo systemctl enable sshd
 
 # Docker
-yay -S docker-compose
+yay -S docker-compose --noconfirm
 sudo gpasswd -a $USER docker
 sudo systemctl start docker.service
 sudo systemctl enable docker.service
 
 # ocs-url - for open some themes and other
-yay -S ocs-url
+yay -S ocs-url --noconfirm
 # AppImage integration to the system, analog appimaged
-yay -S appimagelauncher-git
+yay -S appimagelauncher-git --noconfirm
 
 #
 # Settings system
