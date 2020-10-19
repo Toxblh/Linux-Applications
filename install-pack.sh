@@ -44,6 +44,7 @@ yay -S ulauncher --noconfirm
 yay -S alacritty --noconfirm
 yay -S lsd --noconfirm
 yay -S diff-so-fancy --noconfirm
+yay -S solaar --noconfirm
 
 # Games Wine Deps https://github.com/lutris/docs/blob/master/WineDependencies.md
 yay -S lutris --noconfirm
@@ -103,17 +104,17 @@ yay -S ocs-url --noconfirm
 
 # DDC Utils
 sudo modprobe i2c-dev
-sudo cp dotfiles/ddc/i2c-dev.conf /etc/modules-load.d/i2c-dev.conf
-sudo cp dotfiles/ddc/45-ddcutil-i2c.rules /etc/udev/rules.d/45-ddcutil-i2c.rules
-sudo cp dotfiles/ddc/99-ddcci.rules /etc/udev/rules.d/99-ddcci.rules
-sudo cp dotfiles/ddc/ddcci@.service /etc/systemd/system/ddcci@.service
+sudo cp ./dotfiles/ddc/i2c-dev.conf /etc/modules-load.d/i2c-dev.conf
+sudo cp ./dotfiles/ddc/45-ddcutil-i2c.rules /etc/udev/rules.d/45-ddcutil-i2c.rules
+sudo cp ./dotfiles/ddc/99-ddcci.rules /etc/udev/rules.d/99-ddcci.rules
+sudo cp ./dotfiles/ddc/ddcci@.service /etc/systemd/system/ddcci@.service
 sudo udevadm trigger
 sudo groupadd ddc
 sudo usermod -aG ddc $USER
 
 # Keyboard Keychron K2/Apple
 sudo cp dotfiles/keychron/hid_apple.conf /etc/modprobe.d/hid_apple.conf
-mkinitcpio
+sudo mkinitcpio -P
 
 # Gnome OneDark Pro Terminal
 # dconf load /org/gnome/terminal/legacy/profiles:/:1430663d-083b-4737-a7f5-8378cc8226d1/ < dotfiles/gnome-terminal/theme-profile.dconf
@@ -121,4 +122,4 @@ mkinitcpio
 # NodeJS install
 # echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.zshrc
 # source ~/.zshrc
-nvm install --lts
+# nvm install --lts
