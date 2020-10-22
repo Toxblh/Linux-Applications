@@ -46,6 +46,10 @@ yay -S lsd --noconfirm
 yay -S diff-so-fancy --noconfirm
 yay -S solaar --noconfirm
 
+# Printer Epson
+yay -S epson-inkjet-printer-escpr --noconfirm
+yay -S epson-printer-utility --noconfirm
+
 # Games Wine Deps https://github.com/lutris/docs/blob/master/WineDependencies.md
 yay -S lutris --noconfirm
 yay -S steam --noconfirm
@@ -123,3 +127,16 @@ sudo mkinitcpio -P
 # echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.zshrc
 # source ~/.zshrc
 # nvm install --lts
+
+# Xbox controler
+# TODO: Should be with sudo
+echo 'options bluetooth disable_ertm=1' > /etc/modprobe.d/xbox_bt.conf
+yay -S dkms bluez bluez-utils
+yay -S xpadneo-dkms-git
+
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+sdk install java
+
+# LDAC audio
+yay -S libldac pulseaudio-modules-bt-git
