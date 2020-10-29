@@ -69,6 +69,11 @@ yay -S conky --noconfirm
 yay -S simplescreenrecorder --noconfirm
 yay -S ttf-ms-fonts --noconfirm
 
+yay -S httpie --noconfirm
+yay -S google-cloud-sdk --noconfirm
+yay -S helm --noconfirm
+yay -S aurpublish --noconfirm
+
 # Extrernal Brightness (linux-headers required)
 yay -S ddcutil --noconfirm
 yay -S ddcci-driver-linux-dkms --noconfirm
