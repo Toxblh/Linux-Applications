@@ -73,6 +73,7 @@ yay -S httpie --noconfirm
 yay -S google-cloud-sdk --noconfirm
 yay -S helm --noconfirm
 yay -S aurpublish --noconfirm
+yay -S celluloid --noconfirm
 
 # Extrernal Brightness (linux-headers required)
 yay -S ddcutil --noconfirm
