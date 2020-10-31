@@ -135,8 +135,8 @@ sudo mkinitcpio -P
 # nvm install --lts
 
 # Xbox controler
-# TODO: Should be with sudo
-echo 'options bluetooth disable_ertm=1' > /etc/modprobe.d/xbox_bt.conf
+sudo touch /etc/modprobe.d/xbox_bt.conf
+echo 'options bluetooth disable_ertm=1' | sudo tee -a /etc/modprobe.d/xbox_bt.conf
 yay -S dkms bluez bluez-utils
 yay -S xpadneo-dkms-git
 
